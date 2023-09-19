@@ -1,582 +1,310 @@
-.bi{
-    background: url('./wallpaper.jpg');
-
-
-    
-}
-.a{
-    width: 80px;
-    margin-left: 280px;
-    position: absolute;
-    top: 20px;
-    
-}
-.b{
-    width: 80px;
-    position: absolute;
-    margin-left: 370px;
-    top: 13px;
-}
-.b:hover{
-    width: 100px;
-}
-.c{
-    width: 80px;
-    position: absolute;
-    top: 18px;
-    margin-left: 450px;
-
-}
-.c:hover{
-    width: 100px;
-}
-.d{
-    position: absolute;
-    top: 18px;
-    margin-left: 560px;
-}
-.d:hover{
-    width: 150px;
-}
-.e{
-    position: absolute;
-    margin-left: 740px;
-    top: 18px;
-}
-.e:hover{
-    width: 150px;
-}
-.f{
-    position: absolute;
-    margin-left: 920px;
-    top: 18px;
-}
-.f:hover{
-    width: 150px;
-}
-.G{
-    position: absolute;
-    margin-left: 290PX;
-    width: 100PX;
-    height: 70PX;
-    top: 75PX;
-    background-color: grey;
-    padding: 5PX;
+/* .laptop{
+    background-image: url('./pictures/laptop.jpg');
+    width: 30px;
+    background-repeat: no-repeat;
+} */
+.sticky{
+    position: relative;
+    position: sticky;
+    top: 0px; 
+    list-style: none;
     color: white;
-    
+    background-color: black;
 }
-.a:hover{
-    width: 100px;
-}
-.h{
-    position: relative;
-    margin-left: 390px  ;
-    top: 55px;
-    height: 80px;
-}
-.h:hover{
-    background-color: red;
-}
-.game{
+.nav{
     display: inline-block;
-    width: 60px;
-    position: relative;
-    top: 70px;
+    margin: 7px;
+    display: inline-flex;
+    font-size: small;
 }
-.j{
-    position: relative;
-    width: 35PX;
-    top: 10px;
-    margin-left: 13px;
-    
-}
-.gp{ 
-    position: relative;
-    font-size: x-small;
-   padding-left: -25px;
-   opacity: 0.5;
-   top: 10px;
-   
-}
-
-.game:hover{
-    background-color: orange;
-
-}
-.card{
-    display: inline-block;
-    position: relative;
-    top: 75px;
-    border: none;
-    border-bottom-color: green;
-}
-.K{
-    position: relative;
-    top: 0px;
-    margin-left: 15px;
-    width: 40px;
-}
-.cp{
-    position: relative;
-    font-size: x-small;
-    opacity: 0.5;
-}
-.card:hover{
-    background-color: yellow;
-}
-.tv:hover{
-    width: 200px;
-    
-}
-.L{
+.firsth{
     position: absolute;
-    width: 130px;
-    top: 65px;
-    margin-left: 650px;
+    margin-left: 160px;
+    font-size: small;
+    margin-top: -28PX;
 }
-.tp{
+.maindiv{
     position: absolute;
-    margin-left: 690px;
-    top: 127px;
-    opacity: 0.5;
-    font-size: x-small; 
-}
-.trophy{
-    display: inline-block;
-    margin-left: 750px;
-    padding: 15PX;
-    position: absolute;
-    top: 80PX;
-   
-}
-
-.trophy:hover{
-    color: white;
-    background-color: rgb(117, 117, 248);
-}
-.M{
-    position: relative;
-    top: -18PX;
-    margin-left: -14PX;
-    margin: 7PX;
-}
-.trophyp{
-    position: absolute;
-    top: 36PX;
-    font-size: x-small;
-    opacity: 0.5;
-    margin-left: 10PX;
-}
-.news{
-    position: relative;
-    display: inline-block;
-    margin-left: 900PX;
-    top: -12PX;
-    margin-left: 840PX;
-    padding: 10PX;
+    margin-left: 500px;
+    margin-top: -30px;
 
 }
-.np{
-    position: absolute;
-    font-size: x-small;
-    opacity: 0.6;
-    margin-left: 0PX;
-    padding: 10PX;
-    top: 25PX;
-
+.firstlogo{
+    width: 30px;
+    margin-left: 130px;
+    margin-top: 25px;
 }
-.n{
+.creat{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 170px;
+    font-size: 60px;
+}
+.po{
     position: relative;
-    top: -16PX;
-    margin: 6PX;
-
-}
-.news:hover{
-    background-color: blue;
-    color: white;
-}
-
-.silver{
-    position: relative;
-    margin-left: 20%;
-}
-.sh{
-    position:absolute;
-    margin-left: 285px;
-    padding-bottom: 1px;
-    color: white;
-    background-color: rgba(60, 60, 228, 0.836);
-    padding-left: 35px;
-    padding-right: 256px;
-}
-.sp{
-    position: absolute;
-    top: 537px;
-    margin-left: 285px;
-    padding-top: 10px;
-    background-color: rgba(60, 60, 228, 0.836);
-    color: white;
-    padding-left: 34px;
-    padding-right: 264px;
-
-}
-.secondpic{
-    position: relative;
-    width: 300px;
-    height: 200px;
-    margin-left: 630px;
-    top: -440px;
-}
-.dp{
-    position: relative;
-    display: inline-block;
-    margin-left: 630px;
-    top: -450px;
-    padding-left: 50px;
-    margin-top: 10px;
-    padding-top: 5px;
-    padding-right: 54px;
-    background-color: green;
-}
-.dusripic{
-    position: relative;
-    margin-left: 250px;
-    top: 110px;
-}
-.thirdpic{
-    position: relative;
-    margin-left: 880px;
-    top: -340px;
-    width: 150px
-
-}
-.td{
-    position: relative;
-    display: inline-block;
-    padding-top: 70px;
-    padding-left: 40px;
-    padding-bottom: 45px;
-    top: -540px;
-    margin-left: 1030px;
-    background-color: rgb(181, 181, 243);
-}
-.fourth{
-    display: inline-block;
-    margin-top: -1000px;
-}
-.fourthpic{
-    width: 300px;
-    margin-top: -920px;
     margin-left: 270px;
 }
-.fourthpra{
-    position: absolute;
-    margin-top: -385px;
-    background-color: grey;
-    padding-left: 35px;
-    padding-right: 45px;
-    margin-left: 269px;
-}
-.ocipic{
+.pt{
     position: relative;
-    width: 300PX;
-    margin-top: -970PX;
-    margin-left: 590px;
+    margin-left: 290px;
+    margin-top: -10px;
 }
-.ocipra{
-    position: absolute;
-    margin-top: -420px;
-    margin-left: 590PX;
-    background-color: orangered;
-    padding-top: 10px;
-    padding-left: 70px;
-    padding-right: 66px;
+.pth{
+    position: relative;
+    margin-left: 265px;
+    margin-top: -10px;
 }
-.oci{
+.pfo{
+    position: relative;
+    margin-left: 560px;
+    margin-top: -10px;
+}
+.pfi{
+    position: relative;
+    margin-left: 290px;
+    margin-top: -10px;
+}
+.psi{
+    position: relative;
+    margin-left: 270px;
+    margin-top: -10px;
+}
+.pse{
+    position: relative;
+    margin-left: 560px;
+    margin-top: -10px;
+}
+.feature{
+    font-style: bold;
+    font-size: 40px;
+
+}
+.one{
+    width: 400px;
+}
+.one:hover{
+    width: 395px;
+}
+.two{
+    width: 400px;
+}
+.two:hover{
+    width: 395px;
+}
+.three{
+    width: 400px;
+}
+.three:hover{
+    width: 395px;
+}
+.four{
+    width: 400px;
+}
+.four:hover{
+    width: 395px;
+}
+.five{
+    width: 400px;
+}
+.five:hover{
+    width: 395px;
+}
+.six{
+    width: 400px;
+}
+.six:hover{
+    width: 395px;
+}
+.firstrowpic{
+    display: flex;
+    justify-content: center;
+}
+.secondrowpic{
+    display: flex;
+    justify-content: center;
+}
+.firstcard{
     display: inline-block;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 150px;
+    padding: 45PX;
 }
-.strapic{
+.secondcard{
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 40px;
+    padding: 45PX;
+}
+.thirdcard{
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 40px;
+    padding: 45PX;
+}
+.fouthcard{
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 150px;
+    padding: 45PX;
+}
+.fifthcard{
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 75px;
+    padding: 45PX;
+}
+.sixthcard{
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 75px;
+    padding: 45PX;
+}
+.whychoose{
     position: relative;
-    width: 300px;
-    margin-top: -1010px;
-    margin-left: 900px;
+    margin-left: 150px;
 }
-.strapr{
-    position: absolute;
-    margin-top: -430px;
-    margin-left: 899px;
-    background-color: yellow;
+.youwant{
+    position: relative;
+    margin-left: 150px;
+}
+.thick{
+    list-style: none;
+    margin-left: 150px;
+}
+.computer{
+    width: 500PX;
+    margin-left: 800px;
+    margin-top: -380px;
+
+}
+.firstline{
+    margin-left: 100px;
+    display: inline-block; 
+    box-shadow: 10px 10px 10px 5px;
+    padding: 20px;
+}
+.hone{
+    font-size: 20px;
+    padding-left: 60px;
+}
+.htwo{
+    font-size: larger;
     padding-left: 70px;
-    padding-right: 18px;
 }
-.slider{
-    position: absolute;
-    margin-top: -350px;
-    margin-left: 70px;
+.ytwo{
+    font-size: larger;
+    padding-left: 90px;
 }
-.explore{
-    position: absolute;
-    color: white;
-    background-color: black;
-    margin-left: 1000px;
-    top: 1400px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-
+.buttonb{
+    border-color: rgba(0, 191, 255, 0.747);
+    color: rgba(0, 191, 255, 0.747);
+    margin-left: 120px;
 }
-.add{
-    position: relative;
-    margin-left: -10px;
+.buttonc{
+    border-color: rgba(0, 191, 255, 0.747);
+    color: rgba(0, 191, 255, 0.747);
+    margin-left: 120px;
 }
-.add:hover{
-    transform: translate(-10px);
+.ione{
+    font-size: larger;
+    padding-left: 80px;
 }
-.addpic{
-    position: relative;
-    width: 380px;
-    top: 250px;
-    margin-left: 200px;
-}
-.addh{
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 200px;
-    background-color: rgb(253, 175, 29);
-    color: white;
-    padding-left: 20px;
-    padding-right: 95px;
-    
-}
-.addp{
-    position: absolute;
-    margin-top: 335px;
-    margin-left: 200px;
-    background-color:  rgb(253, 175, 29);
-    padding-left: 18px;
-}
-.newpic{
-    position: relative;
-    width: 350px;
-    margin-left: 600px;
-    margin-top: -55px;
-
-}
-.newh{
-    position: absolute;
-    margin-left: 600px;
-    background-color: pink;
-    padding-left: 40px;
-    padding-right: 71px;
-    color: white;
-}
-.newp{
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 110px;
-    background-color: pink;
-    padding-top: 5px;
-    padding-left: 40px;
-    padding-right: 57px;
-}
-.newpokemon:hover{
-    transform: translate(-10px);
-}
-.scalepic{
-    position: relative;
-    width: 350px;
-    margin-left: 970px;
-    margin-top: -110px;
-
-}
-.scaleh{
-    position: absolute;
-    margin-left: 970px;
-    background-color: red;
-    color: white;
-    padding-left: 15px;
-    padding-right: 102px;
-}
-.scalep{
-    position: absolute;
-    margin-left: 970px;
-    margin-top: 115px;
-    background-color: red;
-    color: rgb(255, 251, 251);
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 98px;
-
-}
-.scale:hover{
-    transform: translate(-10px);
-}
-.butterpic{
-    position: relative;
-    width: 380px;
-    margin-top: 230px;
-    margin-left: 200px;
-}
-.butterh{
-    position: absolute;
-    margin-left: 200px;
-    color: white;
-    background-color: rgba(99, 17, 17, 0.801);
-    padding-left: 20px;
-    padding-right: 109px;
-}
-.butterp{
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 86px;
-    padding-left: 20px;
-    background-color: rgba(99, 17, 17, 0.801);
-    color: white;
-    padding-right: 121px;
-}
-.butter:hover{
-    transform: translate(-10px);
-}
-.gopic{
-    position: relative;
-    width: 360px;
-    margin-left: 600px;
-    margin-top: -90px;
-}
-.goh{
-    position: absolute;
-    margin-left: 600px;
-    color: white;
-    background-color: blue;
-    padding-left: 20px;
-    padding-right: 53px;
-}
-.gop{
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 29px;
-    color: white;
-    background-color: blue;
-    padding-left: 20px;
-    padding-right: 60px;
-}
-.go:hover{
-    transform: translate(-10px);
-}
-
-.voiletpic{
-    position: relative;
-    width: 350px;
-    margin-left: 974px;
-    margin-top: -465px;
-}
-.voileth{
-    position: absolute;
-    margin-left: 975px;
-    margin-top: -143px;
-    background-color: rgba(100, 99, 99, 0.651);
-    padding-left: 20px;
-    padding-right: 78px;
-}
-.voiletp{
-    position: absolute;
-    margin-left: 975px;
-    margin-top: -27px;
-    background-color: rgba(100, 99, 99, 0.651);
-    padding-left: 20px;
-    padding-right: 96PX;
-}
-.voilet:hover{
-    transform: translate(-10px);
-}
-.whatsnew{
-    position: absolute;
-    font-size: 45px;
-    margin-left: 610px;
-    margin-top: -400px;
-    color: lightslategray;
-}
-.viewh{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 975px;
-    background-color: rgba(255, 68, 0, 0.774);
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 155px;
-    border-radius: 10PX 10px 0px 0px;
-}
-.viewp{
-    position: absolute;
-    margin-left: 975px;
-    margin-top: 168px;
-    background-color: rgb(0, 169, 247);
-    padding-top: 5px;
-    padding-left: 43px;
-    padding-right: 124px;
-    padding-bottom: 10px;
-    border-radius: 0px 0px 10px;
-}
-
-.footer{
-    position: absolute;
-    margin-left: 230px;
-    margin-top: 80px;
-    color: grey;
-}
-.facebook{
-    position: relative;
-    width: 40px;
-    margin-top: 80px;
-    margin-left: 600px;
-}
-.instagram{
-    position: absolute;
-    width: 70px;
-    margin-top: 67px;
-}
-.twitter{
-    position: absolute;
-    width: 70px;
-    margin-top: 67px;
-    margin-left: 55px;
-}
-.youtube{
-    position: absolute;
-    width: 75px;
-    margin-top: 67px;
+.buttona{
+    border-color: rgba(0, 191, 255, 0.747);
+    color: rgba(0, 191, 255, 0.747);
     margin-left: 100px;
 }
-.card2{
-    position: relative;
-    margin-left: 1000px;
+.secondline{
+    margin-left: 100px;
+    display: inline-block; 
+    box-shadow: 10px 10px 10px 5px;
+    padding: 20px;
+  
 }
-.last{
-    list-style: none;
-    margin-left: 1150px;
-    margin-top: -20px;
+.clientpic{
+    width: 100px;
+    margin-left: 190px;
 }
-
-.the{
+.client{
+    margin-left: 290px;
+    margin-top: -65px;
+}
+.ion{
+    margin-left: 290px;
+    color: blue;
+    margin-top: -5px;
+}
+.skill{
+    margin-left: 190px;
+}
+.partone{
+    display: inline-block;
+    background-color: black;
+    padding-right: 20px;
     color: white;
 }
-.finish{
-    position: relative;
-    margin-top: -80px;
-    color: gray;
-}
-.mainfooter{
-    position: absolute;
-    padding-bottom: 10px;
-    padding-right: 200px;
+.parttwo{
+    display: inline-block;
     background-color: black;
-    margin-top: 400px;
+    padding-left: 50px;
+    margin-top: -700px;
+    margin-left: 640px;
+    padding-right: 120px;
+    color: white;
 
 }
-.end{
-    position: relative;
-    margin-left: 1000px;
+.founderone{
+    display: inline-block;
+    margin-left: 300px;
+}
+.personalinfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .phone{
+    display: inline-block;
+ } 
+.address{
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondlast{
+    margin-right: -20px;
+} 
+.gizri{
+    margin-left: -80px;
+}
+.firstend{
     list-style: none;
+    margin-left: 290px;
+}
+.secondend{
+    list-style: none;
+    margin-left: 630px;
+    margin-top: -24px;
+}
+.thirdend{
+    list-style: none;
+    margin-left: 1000px;
+    margin-top: -24px;
+}
+.end{
+    opacity: 0.6;
+}
+.secondlast{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.zero{
+    position: relative;
+    margin-left: 530px;
+    margin-top: -40PX;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
